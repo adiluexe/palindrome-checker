@@ -42,3 +42,11 @@ h6 {
   overflow-wrap: break-word;
   hyphens: auto;
 }
+
+:root {
+  --light-blue: #4ecdc4;
+  --dark-blue: #1a535c;
+  --light: #f7fff7;
+  --red: #ff6b6b;
+  --yellow: #ffe66d;
+}
