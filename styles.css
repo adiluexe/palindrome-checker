@@ -69,6 +69,13 @@ header {
   text-transform: uppercase;
   padding: 2rem;
   color: var(--yellow);
+  transition: 0.5s ease;
+}
+
+header:hover {
+  font-size: 4.25rem;
+  color: var(--red);
+  cursor: none;
 }
 
 main {
@@ -90,16 +97,26 @@ main {
   width: 60%;
   padding: 2rem;
   border-radius: 1rem;
-
   background-color: var(--light);
   color: var(--dark-blue);
   font-weight: 700;
+  box-shadow: 0 0.5rem 0 0 var(--red);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   gap: 2rem;
+  transition: 0.5s ease;
+}
+
+.description {
+  transition: 0.5s ease;
+}
+.description:hover {
+  cursor: none;
+  color: var(--red);
+  font-size: 1.3rem;
 }
 
 #controls {
@@ -148,6 +165,13 @@ main {
   width: 60%;
   font-weight: 700;
   font-size: 1.25rem;
+  transition: 0.5s ease;
+}
+
+#reminder:hover {
+  cursor: none;
+  color: var(--yellow);
+  font-size: 1.3rem;
 }
 
 footer {
@@ -156,4 +180,11 @@ footer {
   background-color: var(--red);
   font-size: 1rem;
   font-weight: 700;
+  transition: 0.5s ease;
+}
+
+footer:hover {
+  cursor: none;
+  color: var(--light);
+  font-size: 1.25rem;
 }
